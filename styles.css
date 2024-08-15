@@ -1,0 +1,375 @@
+*
+{
+    box-sizing: border-box;
+}
+body{
+background: black;
+background: radial-gradient(circle, rgba(245,175,94,1) 0%, rgba(0,0,0) );
+color: #ffffff;
+font-family: Inter;
+padding: 0 20px;
+}
+#header
+{
+ 
+  background-color: rgba(3,1,0,0.5);
+  width: 100%;
+  margin: 0;
+  padding: 20px;
+}
+.menu
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  color: transparent;
+}
+li a{
+  color: #f5af5e;
+}
+li a:hover
+{
+  background-color: white;
+  color: #3b1806;
+}
+#title, #description
+  {
+    text-align: center;
+  }
+  #description
+  {
+    color: #f5af5e;
+  }
+ a{
+    color:#3b1806;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 20px;
+ }
+ a:hover
+ {
+    background-color: black;
+    color: #dddddd;
+ }
+#image
+{
+    max-width:100%;
+    height:auto;
+    margin: auto;
+    display: block
+}
+#collage-images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    max-width: 1800px;
+    margin: 10px auto;
+    padding: 20px 10px;
+  }
+  
+  #collage-images img {
+    width: 100%;
+    max-width: 150px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+
+  
+  }
+ .year
+ {
+    font-weight: 600;
+ }
+#albums
+ {
+  width: 100%;
+  margin: 15px 10px;
+  background-color: rgba(245,197,165,0.5);
+  padding: 15px;
+ }
+ #albums h2{
+  text-align: center;
+ }
+ h3{
+  text-align: center;
+ }
+.soundgarden
+{
+  width: 100%;
+  margin: 15px 10px;
+  padding: 15px;
+  background: linear-gradient(315deg, rgba(3,1,0,1) 0%, rgba(59,24,6,1) 25%, rgba(161,85,34,1) 50%, rgba(59,24,6,1) 75%, rgba(3,1,0,1) 100%);
+}
+.soundgarden-albums
+{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.soundgarden-albums img{
+  max-width: 200px;
+}
+.soundagarden-album-year
+{
+  color: #f5af5e;
+}
+.audioslave
+{
+  width: 100%;
+  margin: 15px 10px;
+  padding: 15px;
+  background: linear-gradient(315deg, rgba(3,1,0,1) 0%, rgba(59,24,6,1) 25%, rgba(161,85,34,1) 50%, rgba(59,24,6,1) 75%, rgba(3,1,0,1) 100%);
+}
+.audioslave-albums
+{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.audioslave-albums img{
+  max-width: 200px;
+}
+.audioslave-album1, .audioslave-album2, .audioslave-album3
+{
+  width: 33%;
+  margin: 0 100px;
+} 
+.audioslave-album-year
+{
+  color: #f5af5e;
+}
+.temple_of_dog
+{
+  width: 100%;
+  margin: 15px 10px;
+  padding: 15px;
+  background: linear-gradient(315deg, rgba(3,1,0,1) 0%, rgba(59,24,6,1) 25%, rgba(161,85,34,1) 50%, rgba(59,24,6,1) 75%, rgba(3,1,0,1) 100%);
+}
+.temple_of_dog img{
+  max-width: 200px;
+}
+.solo
+{
+  width: 100%;
+  margin: 15px 10px;
+  padding: 15px;
+  background: linear-gradient(315deg, rgba(3,1,0,1) 0%, rgba(59,24,6,1) 25%, rgba(161,85,34,1) 50%, rgba(59,24,6,1) 75%, rgba(3,1,0,1) 100%);
+}
+.solo-albums
+{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  width: 100%;
+}
+.solo-albums img{
+  max-width: 200px;
+}
+.solo-album-year
+{
+  color: #f5af5e;
+}
+footer{
+  margin: 20px 0;
+  padding: 30px 0;
+  text-align: center;
+}
+@media (max-width: 720px) {
+  #image
+  {
+      max-width:100%;
+      height:auto;
+      margin: auto;
+      display: block
+  }
+  #collage-images {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      max-width: 1800px;
+      margin: 10px auto;
+      padding: 20px 10px;
+    }
+    
+    #collage-images img {
+      width: 100%;
+      max-width: 350px;
+      height: 300px;
+      object-fit: cover;
+      border-radius: 10px;
+
+
+}
+ h3
+ {
+  text-align: center;
+ }
+}
+.soundgarden-albums
+{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+
+}
+.audioslave-albums
+{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  width: 100%;
+}
+.audioslave-albums img{
+  max-width: 250px;
+}
+.temple_of_dog
+{
+  width: 100%;
+  margin: 10px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(315deg, rgba(3,1,0,1) 0%, rgba(59,24,6,1) 25%, rgba(161,85,34,1) 50%, rgba(59,24,6,1) 75%, rgba(3,1,0,1) 100%);
+}
+
+.temple_of_dog img{
+  max-width: 250px;
+}
+.solo-albums
+{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.solo-albums img{
+  max-width: 200px;
+}
+@media (max-width: 600px) {
+  #image
+  {
+      max-width:100%;
+      height:auto;
+      margin: auto;
+      display: block
+  }
+  #collage-images {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      max-width: 1800px;
+      margin: 10px auto;
+      padding: 20px 10px;
+    }
+    
+    #collage-images img {
+      width: 100%;
+      max-width: 350px;
+      height: 300px;
+      object-fit: cover;
+      border-radius: 10px;
+
+
+}
+ h3
+ {
+  text-align: center;
+ }
+
+.soundgarden-albums
+{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+
+}
+.audioslave-albums
+{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 -10px;
+  width: 100%;
+}
+.audioslave-albums img{
+  max-width: 200px;
+}
+.temple_of_dog
+{
+  width: 100%;
+  margin: 10px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(315deg, rgba(3,1,0,1) 0%, rgba(59,24,6,1) 25%, rgba(161,85,34,1) 50%, rgba(59,24,6,1) 75%, rgba(3,1,0,1) 100%);
+}
+
+.temple_of_dog img{
+  max-width: 250px;
+}
+.solo-albums
+{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.solo-albums img{
+  max-width: 200px;
+}
+
+}
+@media (max-width: 400px) 
+  { 
+    .menu
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: transparent;
+}
+.audioslave-albums
+{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: -10px;
+ 
+}
+.audioslave-albums img{
+  max-width: 150px;
+}
+.temple_of_dog img{
+  max-width: 200px;
+}
+  }
