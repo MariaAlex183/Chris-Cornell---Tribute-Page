@@ -41,16 +41,21 @@ li a:hover
   {
     color: #f5af5e;
   }
- a{
+ #tribute-link{
     color:#3b1806;
     font-weight: 600;
     text-decoration: none;
     font-size: 20px;
+    text-align: center;
  }
- a:hover
- {
-    background-color: black;
-    color: #dddddd;
+ iframe{
+  max-width: 560px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
  }
 #image
 {
@@ -210,16 +215,11 @@ footer{
     object-fit: cover;
     border-radius: 10px;
 }
-a{
+#tribute-link{
   color:#030100;
   font-weight: 600;
   text-decoration: none;
   font-size: 20px;
-}
-a:hover
-{
-  background-color: black;
-  color: #dddddd;
 }
 .audioslave-albums
 {
@@ -292,16 +292,11 @@ a:hover
       object-fit: cover;
       border-radius: 10px;
 }
-a{
+#tribute-link{
   color:#8e5a37;
   font-weight: 600;
   text-decoration: none;
   font-size: 20px;
-}
-a:hover
-{
-  background-color: black;
-  color: #dddddd;
 }
  h3
  {
